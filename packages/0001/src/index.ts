@@ -4,7 +4,8 @@ we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below 1000
 */
-const fizzBuzz: (limit: number) => number = (limit) => {
+// eslint-disable-next-line import/prefer-default-export
+export const fizzBuzz: (limit: number) => number = (limit) => {
   let sum: number = 0;
   let current: number = 0;
   while (current < limit) {
@@ -16,5 +17,3 @@ const fizzBuzz: (limit: number) => number = (limit) => {
   }
   return sum;
 };
-
-module.exports = fizzBuzz;

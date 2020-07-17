@@ -1,27 +1,31 @@
 {
-  "name": "@hodrobond-euler/0001",
-  "version": "0.0.0",
+  "name": "@hodrobond/euler-0001",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Adam Kazberuk <hodrobond@gmail.com>",
   "homepage": "https://github.com/Hodrobond/EulerTypescript/tree/master/packages/euler_0001#readme",
   "license": "ISC",
-  "main": "lib/euler_0001.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hodrobond/EulerTypescript.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "tsc": "tsc"
+    "check-types": "tsc -b tsconfig.json"
   },
   "bugs": {
     "url": "https://github.com/Hodrobond/EulerTypescript/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "19bfa81908800935931f6f41e2737e820f794457",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "typescript": "^3.9.7"
   }
 }

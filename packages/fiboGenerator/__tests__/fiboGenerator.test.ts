@@ -1,4 +1,4 @@
-const fiboGenerator = require('../src');
+import { fiboGenerator } from '../src';
 
 describe('fiboGenerator', () => {
     it('generates first 10 numbers using upper limit', () => {
@@ -9,7 +9,10 @@ describe('fiboGenerator', () => {
     });
     it('throws with missing input', () => {
       try {
-        fiboGenerator();
+        fiboGenerator({
+          upperLimit: Infinity,
+          lengthLimit: Infinity,
+        });
       } catch (e) {
         expect(e.message).toEqual('Please specify an upper bound or length limit')
       }

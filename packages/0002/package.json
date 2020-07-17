@@ -1,26 +1,34 @@
 {
-  "name": "@hodrobond-euler/0002",
-  "version": "0.0.0",
+  "name": "@hodrobond/euler-0002",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Adam Kazberuk <hodrobond@gmail.com>",
   "homepage": "https://github.com/Hodrobond/EulerTypescript/tree/master/packages/0002#readme",
   "license": "ISC",
-  "main": "lib/0002.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hodrobond/EulerTypescript.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "check-types": "tsc -b tsconfig.json"
   },
   "bugs": {
     "url": "https://github.com/Hodrobond/EulerTypescript/issues"
-  }
+  },
+  "dependencies": {
+    "@hodrobond/euler-fibogenerator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "typescript": "^3.9.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "19bfa81908800935931f6f41e2737e820f794457"
 }

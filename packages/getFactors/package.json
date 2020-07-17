@@ -1,14 +1,11 @@
 {
-  "name": "@hodrobond/euler-fibogenerator",
+  "name": "@hodrobond/euler-getfactors",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Adam Kazberuk <hodrobond@gmail.com>",
-  "homepage": "https://github.com/Hodrobond/EulerTypescript/tree/master/packages/fiboGenerator#readme",
+  "homepage": "https://github.com/Hodrobond/EulerTypescript/tree/master/packages/getFactors#readme",
   "license": "ISC",
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "directories": {
     "test": "__tests__"
   },
@@ -23,12 +20,12 @@
   "bugs": {
     "url": "https://github.com/Hodrobond/EulerTypescript/issues"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "19bfa81908800935931f6f41e2737e820f794457",
   "devDependencies": {
     "@types/jest": "^26.0.4",
     "typescript": "^3.9.7"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "19bfa81908800935931f6f41e2737e820f794457"
 }
