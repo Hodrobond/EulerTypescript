@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "module": "ES6",
-    "composite": true,
     "outDir": "./dist",
     "rootDir": "src",
+    "emitDeclarationOnly": true,
     "declaration": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
@@ -15,6 +15,6 @@
     "node_modules",
     "**/*.spec.ts",
     "dist/**",
-    "**/test.ts"
+    "__tests__"
   ]
 }
