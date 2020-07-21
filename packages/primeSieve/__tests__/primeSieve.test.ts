@@ -1,9 +1,7 @@
 import { primeSieve } from '../src';
 
-const firstTen = [true, true, true, false, true, false, true, false, false]
-
 describe('primeSieve', () => {
     it('needs tests', () => {
-      expect(primeSieve(10)).toEqual(firstTen)
+      expect(primeSieve(10)).toEqual([2,3,5,7])
     });
 });

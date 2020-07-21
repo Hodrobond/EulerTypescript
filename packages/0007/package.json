@@ -1,0 +1,25 @@
+{
+  "name": "@hodrobond/euler-0007",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "Adam Kazberuk <hodrobond@gmail.com>",
+  "homepage": "https://github.com/Hodrobond/EulerTypescript/tree/master/packages/0007#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "__tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hodrobond/EulerTypescript.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Hodrobond/EulerTypescript/issues"
+  },
+  "dependencies": {
+    "@hodrobond/euler-primesieve": "^1.0.0"
+  }
+}
